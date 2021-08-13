@@ -1,0 +1,33 @@
+ffmpeg started on 2021-08-13 at 10:55:51
+Report written to "ffmpeg-20210813-105551.log"
+Command line:
+ffmpeg -i FFmpegDefault/18390.mp4 -i input/artwork.mp4 -lavfi "libvmaf=vmaf_v0.6.1.json:log_path=VMAF.txt" -report -f null -
+ffmpeg version 3.4.8-0ubuntu0.2 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chrom  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Splitting the commandline.
+Reading option '-i' ... matched as input url with argument 'FFmpegDefault/18390.mp4'.
+Reading option '-i' ... matched as input url with argument 'input/artwork.mp4'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument 'libvmaf=vmaf_v0.6.1.json:log_path=VMAF.txt'.
+Reading option '-report' ... matched as option 'report' (generate a report) with argument '1'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'null'.
+Reading option '-' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option lavfi (create a complex filtergraph) with argument libvmaf=vmaf_v0.6.1.json:log_path=VMAF.txt.
+Applying option report (generate a report) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url FFmpegDefault/18390.mp4.
+Successfully parsed a group of options.
+Opening an input file: FFmpegDefault/18390.mp4.
+[NULL @ 0x55a8fd0c32a0] Opening 'FFmpegDefault/18390.mp4' for reading
+[file @ 0x55a8fd0c3c60] Setting default whitelist 'file,crypto'
+FFmpegDefault/18390.mp4: No such file or directory
